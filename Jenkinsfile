@@ -4,7 +4,8 @@ pipeline {
     environment {
         IMAGE = "mayanktan/se-final-lab:latest"
         VENV = ".venv"
-        PYTHON = "/usr/bin/python3" 
+        PYTHON = "/usr/bin/python3"
+        PATH = "/usr/local/bin:$PATH"
     }
 
     stages {
